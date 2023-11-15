@@ -1,4 +1,4 @@
-package ru.anton.tictac;
+package ru.anton.lesson01;
 
 import javax.swing.*;
 import java.awt.*;
@@ -14,8 +14,8 @@ public class GameWindow extends JFrame {
     Map map;
     SettingsWindow settingsWindow;
 
-    JButton startButton = new JButton("New Game");
-    JButton exitButton = new JButton("Exit");
+    JButton startButton;
+    JButton exitButton;
 
     GameWindow() {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -25,17 +25,34 @@ public class GameWindow extends JFrame {
         setResizable(false);
         setLocationRelativeTo(null);
 
+        createWindow();
 
+        setVisible(true);
+    }
+
+
+    void startNewGame (int mode, int fsx, int fsy, int vLen) {
+        settingsWindow.setVisible(false);
+        map.startNemGame(mode, fsx, fsy, vLen);
+    }
+
+    public void createWindow() {
         map = new Map();
         settingsWindow = new SettingsWindow(this);
 
-        JPanel jPanel = new JPanel(new GridLayout(1, 2));
-        jPanel.add(startButton);
-        jPanel.add(exitButton);
-        add(jPanel, BorderLayout.SOUTH);
+        add(createButtons(), BorderLayout.SOUTH);
         add(map, BorderLayout.CENTER);
-        setVisible(true);
+    }
 
+    public Component createButtons () {
+        startButton = new JButton("Start");
+        exitButton = new JButton("Exit");
+        startButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                settingsWindow.setVisible(true);
+            }
+        });
 
         exitButton.addActionListener(new ActionListener() {
             @Override
@@ -44,16 +61,14 @@ public class GameWindow extends JFrame {
             }
         });
 
-        startButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                settingsWindow.setVisible(true);
-            }
-        });
+        JPanel pButtons = new JPanel(new GridLayout(1, 2));
+        pButtons.add(startButton);
+        pButtons.add(exitButton);
+
+        return pButtons;
     }
 
-
-    void startNewGame (int mode, int fsx, int fsy, int vLen) {
-        map.startNemGame(mode, fsx, fsy, vLen);
+    public void pointGame() {
+        map.setVisible(true);
     }
 }
