@@ -89,13 +89,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ru.anton.homework02.Main">
-    <configuration name="Task02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.anton.seminar04.Task02" />
+  <component name="RunManager" selected="Application.ru.anton.homework04.Main">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.anton.lesson05.Program" />
       <module name="JavaDevelopmentKit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.anton.seminar04.*" />
+          <option name="PATTERN" value="ru.anton.lesson05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ru.anton.homework02.Main" />
         <item itemvalue="Application.ru.anton.homework04.Main" />
+        <item itemvalue="Application.Program" />
+        <item itemvalue="Application.ru.anton.homework02.Main" />
         <item itemvalue="Application.ru.anton.homework03.Main" />
         <item itemvalue="Application.Task03" />
-        <item itemvalue="Application.Task02" />
       </list>
     </recent_temporary>
   </component>

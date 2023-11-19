@@ -1,21 +1,32 @@
 package ru.anton.homework04;
 
 public class Worker {
-    private static int numTab = 0;
+    private static int ID = 0;
+
+    private int numTab;
     private String name;
     private String phone;
     private int experience;
 
     public Worker (String name, String phone, int experience) {
-        numTab++;
+        ++ID;
+        this.numTab = ID;
         this.name = name;
         this.phone = phone;
         this.experience = experience;
     }
 
+    public Worker (Worker worker) {
+        this.numTab = worker.getNumTab();
+        this.name = worker.getName();
+        this.phone = worker.getPhone();
+        this.experience = worker.getExperience();
+    }
+
     public int getNumTab () {
         return numTab;
     }
+
 
     public String getName() {
         return name;

@@ -1,8 +1,13 @@
 package ru.anton.homework04;
 
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+
 public class Main {
     public static void main(String[] args) {
         PhoneBook phoneBook = new PhoneBook();
+        List <Worker> listResult = new LinkedList<>();
         Worker worker1 = new Worker("Ivan", "8531", 5);
         Worker worker2 = new Worker("Ivan", "35", 3);
         Worker worker3 = new Worker("Maxim", "111", 10);
@@ -16,7 +21,11 @@ public class Main {
         phoneBook.addAllWorkers(worker1, worker2, worker3,
                                 worker4, worker5, worker6,
                                 worker7, worker8, worker9, worker10);
-        System.out.println(phoneBook.findByExperience(7));
-        System.out.println(phoneBook);
+        System.out.println("Список сотрудников со стажем: ");
+        System.out.println(phoneBook.findByExperience(3));
+        System.out.println("Список номеров сотрудника: ");
+        System.out.println(phoneBook.findPhoneByName("Inna"));
+        System.out.println("Сотрудник, найденный по табельному номеру. ");
+        System.out.println(phoneBook.findByTableNumber(10));
     }
 }
