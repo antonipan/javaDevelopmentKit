@@ -27,5 +27,6 @@ public class Main {
         System.out.println(phoneBook.findPhoneByName("Inna"));
         System.out.println("Сотрудник, найденный по табельному номеру. ");
         System.out.println(phoneBook.findByTableNumber(10));
+
     }
 }
