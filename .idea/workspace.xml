@@ -89,65 +89,65 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ru.anton.homework04.Main">
+  <component name="RunManager" selected="Application.Program">
+    <configuration name="Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.anton.lesson05.ex01.Ex01" />
+      <module name="JavaDevelopmentKit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.anton.lesson05.ex01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.anton.lesson05.ex02.Ex02" />
+      <module name="JavaDevelopmentKit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.anton.lesson05.ex02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.anton.lesson05.ex03.Ex03" />
+      <module name="JavaDevelopmentKit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.anton.lesson05.ex03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.anton.lesson05.ex04.Ex04" />
+      <module name="JavaDevelopmentKit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.anton.lesson05.ex04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.anton.lesson05.Program" />
+      <option name="MAIN_CLASS_NAME" value="ru.anton.homework05.Program" />
       <module name="JavaDevelopmentKit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.anton.lesson05.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.anton.seminar04.Task03" />
-      <module name="JavaDevelopmentKit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.anton.seminar04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ru.anton.homework02.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.anton.homework02.Main" />
-      <module name="JavaDevelopmentKit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.anton.homework02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ru.anton.homework03.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.anton.homework03.Main" />
-      <module name="JavaDevelopmentKit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.anton.homework03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ru.anton.homework04.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.anton.homework04.Main" />
-      <module name="JavaDevelopmentKit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.anton.homework04.*" />
+          <option name="PATTERN" value="ru.anton.homework05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ru.anton.homework04.Main" />
         <item itemvalue="Application.Program" />
-        <item itemvalue="Application.ru.anton.homework02.Main" />
-        <item itemvalue="Application.ru.anton.homework03.Main" />
-        <item itemvalue="Application.Task03" />
+        <item itemvalue="Application.Ex02" />
+        <item itemvalue="Application.Ex04" />
+        <item itemvalue="Application.Ex01" />
+        <item itemvalue="Application.Ex03" />
       </list>
     </recent_temporary>
   </component>

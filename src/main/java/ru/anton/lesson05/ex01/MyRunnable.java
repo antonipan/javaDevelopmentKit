@@ -1,4 +1,4 @@
-package ru.anton.lesson05;
+package ru.anton.lesson05.ex01;
 
 public class MyRunnable implements Runnable {
     @Override
